@@ -13,6 +13,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Urban.Storm.Domain\Urban.Storm.Domain.csproj" />
+    <ProjectReference Include="..\Urban.Storm.Data\Urban.Storm.Data.csproj" />
   </ItemGroup>
 
 </Project>
