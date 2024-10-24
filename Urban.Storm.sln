@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urban.Storm.Api", "Urban.St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urban.Storm.Domain", "Urban.Storm.Domain\Urban.Storm.Domain.csproj", "{B482181C-44E6-4E51-924B-F2779423A6F2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urban.Storm.Data", "Urban.Storm.Data\Urban.Storm.Data.csproj", "{2CD82DE9-CD74-4C16-865C-164DBD48BE79}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{B482181C-44E6-4E51-924B-F2779423A6F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B482181C-44E6-4E51-924B-F2779423A6F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B482181C-44E6-4E51-924B-F2779423A6F2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CD82DE9-CD74-4C16-865C-164DBD48BE79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CD82DE9-CD74-4C16-865C-164DBD48BE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CD82DE9-CD74-4C16-865C-164DBD48BE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CD82DE9-CD74-4C16-865C-164DBD48BE79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
