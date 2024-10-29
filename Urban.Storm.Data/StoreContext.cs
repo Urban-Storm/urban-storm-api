@@ -1,5 +1,6 @@
 ﻿using Urban.Storm.Domain.Catalog; 
 using Microsoft.EntityFrameworkCore;
+using Urban.Storm.Domain.Orders;
 
 namespace Urban.Storm.Data
 {
@@ -9,6 +10,7 @@ namespace Urban.Storm.Data
             : base(options) {}
 
         public DbSet<Item> Items { get; set; }
+        public DbSet<Order> Orders { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {
