@@ -20,4 +20,8 @@
     <Using Include="Microsoft.VisualStudio.TestTools.UnitTesting" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Urban.Storm.Domain\Urban.Storm.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
