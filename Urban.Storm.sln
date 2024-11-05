@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urban.Storm.Domain", "Urban
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urban.Storm.Data", "Urban.Storm.Data\Urban.Storm.Data.csproj", "{2CD82DE9-CD74-4C16-865C-164DBD48BE79}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{CE8C21AE-728A-45BE-9C82-2720F54DCD1C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Urban.Storm.Domain.Tests", "tests\Urban.Storm.Domain.Tests\Urban.Storm.Domain.Tests.csproj", "{E9A04AE0-7A3E-4EEC-AF16-7EB681738715}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,12 @@ Global
 		{2CD82DE9-CD74-4C16-865C-164DBD48BE79}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CD82DE9-CD74-4C16-865C-164DBD48BE79}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CD82DE9-CD74-4C16-865C-164DBD48BE79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9A04AE0-7A3E-4EEC-AF16-7EB681738715}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9A04AE0-7A3E-4EEC-AF16-7EB681738715}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9A04AE0-7A3E-4EEC-AF16-7EB681738715}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9A04AE0-7A3E-4EEC-AF16-7EB681738715}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{E9A04AE0-7A3E-4EEC-AF16-7EB681738715} = {CE8C21AE-728A-45BE-9C82-2720F54DCD1C}
 	EndGlobalSection
 EndGlobal
