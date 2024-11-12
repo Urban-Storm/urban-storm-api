@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Urban.Storm.Domain.Catalog;
 using Urban.Storm.Data;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Urban.Storm.Api.Controllers
 {
@@ -66,6 +67,7 @@ namespace Urban.Storm.Api.Controllers
             return NoContent();
    }
    [HttpDelete("{id:int}")]
+   [Authorize("delete:catalog")]
 public IActionResult Delete(int id){
             var item = _db.Items.Find(id);
             if (item == null) {
